@@ -20,7 +20,7 @@ int longest_subarray_with_sum_k(int arr[], int n, int k)
 }
 int main()
 {
-    int a[] ={1,2,3,1,1,1,1,4,2,3};
-    cout<<longest_subarray_with_sum_k(a,10,3);
+    int a[] ={1,2,3,1,1,1,1};
+    cout<<longest_subarray_with_sum_k(a,7,3);
     return 0;
 }
