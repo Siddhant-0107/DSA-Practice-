@@ -24,7 +24,7 @@ int search_insert_position(int arr[], int n, int target)
 }
 int main()
 {
-    int a[]={3,4,13,13,13,20,40};
-    int s =search_insert_position(a,7,13);
+    int a[]={2, 2 , 3 , 3 , 3 , 3 , 4};
+    int s =search_insert_position(a,7,3);
     cout<<s;
 }
